@@ -10,12 +10,23 @@ const nextConfig = {
       },
     ],
   },
-  webpack(config) {
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        path: false,
+        crypto: false,
+      };
+    }
     config.module.rules.push({
       test: /\.svg$/,
       use: ['@svgr/webpack'],
     });
     return config;
+  },
+  experimental: {
+    appDir: false,
   },
 };
 

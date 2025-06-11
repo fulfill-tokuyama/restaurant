@@ -1,9 +1,8 @@
-import { Inter } from 'next/font/google';
+// import { Inter } from 'next/font/google';
+// const inter = Inter({ subsets: ['latin'] });
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { ReactNode } from 'react';
-
-const inter = Inter({ subsets: ['latin'] });
 
 export function generateStaticParams() {
   return [{ locale: 'ja' }, { locale: 'en' }, { locale: 'zh' }];
@@ -25,7 +24,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

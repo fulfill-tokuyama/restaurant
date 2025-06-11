@@ -1,0 +1,111 @@
+{
+  "common": {
+    "reservation": "Reserve",
+    "menu": "Menu",
+    "about": "About",
+    "gallery": "Gallery",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Authentic Italian Cuisine with a Beautiful View",
+      "subtitle": "Experience the authentic taste of Italy with carefully selected ingredients and expert craftsmanship"
+    },
+    "concept": {
+      "title": "Concept",
+      "features": {
+        "ingredients": {
+          "title": "Premium Ingredients",
+          "description": "Using the finest ingredients imported directly from Italy"
+        },
+        "terrace": {
+          "title": "Scenic Terrace",
+          "description": "Enjoy your meal with a breathtaking view of the city"
+        },
+        "chef": {
+          "title": "Italian Chef",
+          "description": "Our chef, trained in Italy, brings authentic Italian cuisine to your table"
+        }
+      }
+    }
+  },
+  "menu": {
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "drinks": "Drinks",
+    "categories": {
+      "antipasto": "Antipasto",
+      "primo": "Primo Piatto",
+      "secondo": "Secondo Piatto",
+      "dolce": "Dolce"
+    }
+  },
+  "reservation": {
+    "title": "Reservation",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "seating": "Seating Preference",
+      "specialRequests": "Special Requests",
+      "submit": "Confirm Reservation"
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "categories": {
+      "food": "Food",
+      "interior": "Interior",
+      "terrace": "Terrace",
+      "events": "Events"
+    }
+  },
+  "news": {
+    "title": "News",
+    "items": [
+      { "title": "New Menu Launched", "description": "We have added a new summer Italian menu." },
+      { "title": "Temporary Closure Notice", "description": "We will be temporarily closed on June 15 for maintenance." }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "footer": {
+    "sections": {
+      "hours": {
+        "title": "Business Hours",
+        "lunch": "Lunch",
+        "lunchTime": "11:30 AM - 3:00 PM (Last Order 2:30 PM)",
+        "dinner": "Dinner",
+        "dinnerTime": "5:30 PM - 11:00 PM (Last Order 10:00 PM)",
+        "closed": "Closed",
+        "closedDays": "Mondays"
+      },
+      "contact": {
+        "title": "Contact",
+        "address": "Address",
+        "addressValue": "3-1-1 Minami-Aoyama, Minato-ku, Tokyo",
+        "phone": "Phone",
+        "phoneValue": "+81-3-1234-5678",
+        "email": "Email",
+        "emailValue": "info@trattoria-bellavista.com"
+      },
+      "social": {
+        "title": "Social Media"
+      }
+    },
+    "copyright": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+} 
